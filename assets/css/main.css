@@ -294,10 +294,17 @@ section {
   box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
 }
 
-.header .logo img {
-  max-height: 40px;
+.header {
+  max-height: 80px;
+  /* margin-right: ; */
+  
+}
+
+.logo img {
+  max-height: 200px;
   margin-right: 6px;
 }
+
 
 .header .logo h1 {
   font-size: 30px;
@@ -336,7 +343,7 @@ section {
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(41, 38, 38, 0.6);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -352,7 +359,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #4c0f86;
   }
 
   .navbar .get-a-quote,
@@ -531,7 +538,7 @@ section {
   }
 
   .mobile-nav-show {
-    color: #fff;
+    color: #332a2a;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
