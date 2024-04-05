@@ -2091,7 +2091,7 @@ section {
 
 @media only screen and (max-width: 480px) {
   #call-button {
-    bottom: 130px;
+    bottom: 100px;
     right: 15px;
   }
 
