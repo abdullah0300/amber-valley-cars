@@ -811,7 +811,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("https://ik.imagekit.io/mctozv7td/Amber%20Cars/WhatsApp%20Image%202024-04-05%20at%2013.57.51_34751d99.jpg?updatedAt=1712307940483") center center;
   background-size: cover;
   padding: 100px 0;
 }
