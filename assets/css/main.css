@@ -1398,28 +1398,28 @@ section {
   min-height: 500px;
   background-size: cover;
   background-position: center;
-}
+} 
 
-.get-a-quote .php-email-form {
+.get-a-quote .php-email-for {
   background: #f3f6fc;
   padding: 40px;
   height: 100%;
 }
 
 @media (max-width: 575px) {
-  .get-a-quote .php-email-form {
+  .get-a-quote .php-email-for {
     padding: 20px;
   }
 }
 
-.get-a-quote .php-email-form h3 {
+.get-a-quote .php-email-for h3 {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-.get-a-quote .php-email-form h4 {
+.get-a-quote .php-email-for h4 {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1427,12 +1427,12 @@ section {
   margin: 20px 0 0 0;
 }
 
-.get-a-quote .php-email-form p {
+.get-a-quote .php-email-for p {
   font-size: 14px;
   margin-bottom: 20px;
 }
 
-.get-a-quote .php-email-form .error-message {
+.get-a-quote .php-email-for .error-message {
   display: none;
   color: #fff;
   background: #df1529;
@@ -1442,7 +1442,7 @@ section {
   font-weight: 600;
 }
 
-.get-a-quote .php-email-form .sent-message {
+.get-a-quote .php-email-for .sent-message {
   display: none;
   color: #fff;
   background: #059652;
@@ -1452,7 +1452,7 @@ section {
   font-weight: 600;
 }
 
-.get-a-quote .php-email-form .loading {
+.get-a-quote .php-email-for .loading {
   display: none;
   background: #fff;
   text-align: center;
@@ -1460,7 +1460,7 @@ section {
   margin-bottom: 24px;
 }
 
-.get-a-quote .php-email-form .loading:before {
+.get-a-quote .php-email-for .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1472,28 +1472,28 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.get-a-quote .php-email-form input,
-.get-a-quote .php-email-form textarea {
+.get-a-quote .php-email-for input,
+.get-a-quote .php-email-for textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 0;
 }
 
-.get-a-quote .php-email-form input:focus,
-.get-a-quote .php-email-form textarea:focus {
+.get-a-quote .php-email-for input:focus,
+.get-a-quote .php-email-for textarea:focus {
   border-color: var(--color-primary);
 }
 
-.get-a-quote .php-email-form input {
+.get-a-quote .php-email-for input {
   padding: 12px 15px;
 }
 
-.get-a-quote .php-email-form textarea {
+.get-a-quote .php-email-for textarea {
   padding: 12px 15px;
 }
 
-.get-a-quote .php-email-form button[type=submit] {
+.get-a-quote .php-email-for button[type=submit] {
   background: var(--color-primary);
   border: 0;
   padding: 10px 30px;
@@ -1502,7 +1502,7 @@ section {
   border-radius: 4px;
 }
 
-.get-a-quote .php-email-form button[type=submit]:hover {
+.get-a-quote .php-email-for button[type=submit]:hover {
   background: rgba(13, 66, 255, 0.8);
 }
 
@@ -1552,16 +1552,16 @@ section {
   color: rgba(14, 29, 52, 0.8);
 }
 
-.contact .php-email-form {
+.contact .php-email-for {
   width: 100%;
   background: #fff;
 }
 
-.contact .php-email-form .form-group {
+.contact .php-email-for .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .error-message {
+.contact .php-email-for .error-message {
   display: none;
   color: #fff;
   background: #df1529;
@@ -1570,11 +1570,11 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-for .error-message br+br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.contact .php-email-for .sent-message {
   display: none;
   color: #fff;
   background: #059652;
@@ -1583,14 +1583,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .php-email-for .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .php-email-for .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1602,22 +1602,22 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .php-email-for input,
+.contact .php-email-for textarea {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input {
+.contact .php-email-for input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.contact .php-email-for textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-for button[type=submit] {
   background: var(--color-primary);
   border: 0;
   padding: 10px 35px;
@@ -1626,7 +1626,7 @@ section {
   border-radius: 5px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-for button[type=submit]:hover {
   background: rgba(13, 66, 255, 0.8);
 }
 
