@@ -585,7 +585,7 @@ section {
 .featured-services .service-item {
   position: relative;
   height: 100%;
-  margin-bottom: 20px;
+  margin-bottom: -10px;
 }
 
 .featured-services .service-item .icon {
