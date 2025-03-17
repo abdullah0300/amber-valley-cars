@@ -298,7 +298,7 @@ section {
 .header {
   max-height: 80px;
   /* margin-right: ; */
-  
+
 }
 
 .logo img {
@@ -577,7 +577,7 @@ section {
     background: rgba(14, 29, 52, 0.8);
     z-index: 9996;
   }
-} 
+}
 
 /*--------------------------------------------------------------
 # Featured Services Section
@@ -1399,7 +1399,7 @@ section {
   min-height: 500px;
   background-size: cover;
   background-position: center;
-} 
+}
 
 .get-a-quote .php-email-for {
   background: #f3f6fc;
@@ -1923,13 +1923,14 @@ section {
 .footer .credits a {
   color: #fff;
 }
-.btn-mine{
+
+.btn-mine {
   background-color: #6b6ab4;
   height: 3rem;
   width: 8rem;
 }
 
-.btn-mine:hover{
+.btn-mine:hover {
   background-color: gray;
 }
 
@@ -2106,3 +2107,204 @@ section {
     width: 40px;
   }
 }
+
+
+
+
+    /* Blog Section Styles */
+    .taxi-blog-section {
+      padding: 4rem 0;
+      background-color: #f5f5f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .taxi-container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 15px;
+  }
+  
+  .taxi-section-title {
+      text-align: center;
+      margin-bottom: 3rem;
+  }
+  
+  .taxi-section-title h2 {
+      font-size: 2.5rem;
+      color: white;
+      margin-bottom: 1rem;
+  }
+  
+  .taxi-section-title p {
+      font-size: 1rem;
+      color: #777;
+      max-width: 600px;
+      margin: 0 auto;
+  }
+  
+  .taxi-blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 2rem;
+  }
+  
+  .taxi-blog-card {
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .taxi-blog-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .taxi-blog-image {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+  }
+  
+  .taxi-blog-content {
+      padding: 1.5rem;
+  }
+  
+  .taxi-blog-date {
+      font-size: 0.8rem;
+      color: #777;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+  }
+  
+  .taxi-blog-title {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      color: rgb(61, 57, 57);
+  }
+  
+  .taxi-blog-excerpt {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+  }
+  
+  .taxi-blog-readmore {
+      display: inline-block;
+      background-color: #6b6ab4;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background-color 0.3s;
+  }
+  
+  .taxi-blog-readmore:hover {
+      background-color: white;
+      color: #777;
+  }
+  
+  .taxi-blog-categories {
+      display: flex;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+  }
+  
+  .taxi-blog-category {
+      background-color: #f0f0f0;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      color: #666;
+  }
+  
+  /* Featured Blog Styles */
+  .taxi-featured-blog {
+      margin-bottom: 3rem;
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  
+  .taxi-featured-image {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+  
+  .taxi-featured-content {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  .taxi-featured-label {
+      background-color: #6b6ab4;
+      color: white;
+      padding: 0.3rem 0.8rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 1rem;
+  }
+  
+  .taxi-featured-title {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #555;
+  }
+  
+  .taxi-featured-excerpt {
+      margin-bottom: 1.5rem;
+  }
+  
+  /* Pagination Styles */
+  .taxi-pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 3rem;
+  }
+  
+  .taxi-page-item {
+      margin: 0 0.3rem;
+  }
+  
+  .taxi-page-link {
+      display: block;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      background-color: #fff;
+      color: rgb(61, 56, 56);
+      text-decoration: none;
+      transition: all 0.3s;
+  }
+  
+  .taxi-page-link:hover {
+      background-color: #6b6ab4;
+  }
+  
+  .taxi-page-link.taxi-active {
+      background-color: #6b6ab4;
+      font-weight: 600;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+      .taxi-featured-blog {
+          grid-template-columns: 1fr;
+      }
+      
+      .taxi-featured-image {
+          height: 250px;
+      }
+  }
