@@ -2162,9 +2162,9 @@ section {
   }
   
   .taxi-blog-image {
-      height: 200px;
+      height: 100%;
       width: 100%;
-      object-fit: cover;
+      object-fit: fill;
   }
   
   .taxi-blog-content {
